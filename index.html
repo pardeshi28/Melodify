@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="icon" href="https://www.flaticon.com/free-icons/spotify-sketch">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left ">
+            <div class="close">
+                <img src="img/cross.svg" alt="cross img" class="invert">
+            </div>
+            <div class="home bg-gray rounded m-1 p-1">
+                <div class="logo"><img class="invert" src="img/logo.svg" alt="Logo"></div>
+                <ul>
+                    <li><img class="invert " src="img/Home.svg" alt="home">Home</li>
+                    <li><img class="invert " src="img/search.svg" alt="Serach">Serach</li>
+                </ul>
+            </div>
+            <div class="library bg-gray rounded m-1 p-1">
+                <div class="heading">
+                    <img class="invert" src="img/libraty.svg" alt="library">
+                    <h2>Your Library</h2>
+                </div>
+                <div class="songlist">
+                    <ul>
+                        <!-- <li>
+                            <img src="music.svg" alt="" class="invert">
+                            <div class="info">
+                                <div>Song Name</div>
+                                <div>Song Artist</div>
+                            </div>
+                            <div class="playnow">
+                                <span>Play Now</span>
+                                <img src="player.svg" class="invert" height="30px" width="30px">
+                            </div>
+                        </li> -->
+                    </ul>
+                </div>
+                <div class="footer">
+                    <div><a href="https://www.spotify.com/de/legal/end-user-agreement/"><span>Lagal</span></a></div>
+                    <div><a href="https://www.spotify.com/de/privacy"><span>Privacy Center</span></a></div>
+                    <div><a href="https://www.spotify.com/de/privacy"><span>Privacy Policy</span></a></div>
+                    <div><a href="https://www.spotify.com/de/privacy"><span>Cookeis Setting</span></a></div>
+                    <div><a href="https://www.spotify.com/de/privacy"><span>About Ads</span></a></div>
+                    <div><a href="https://www.spotify.com/de/privacy"><span>Accessablity</span></a></div>
+                    <!-- <a href=""><span>Cookies</span></a>
+                <div class="lang">
+                    <button>English</button>
+                </div> -->
+                </div>
+            </div>
+
+
+        </div>
+        <div class="right bg-gray rounded m-1 ">
+            <div class="header item-centre">
+                <div class="humburgerContainer">
+                    <div class="humburger invert">
+                        <img src="img/humburger.svg" alt="humburger">
+                    </div>
+                    <div class="nav invert">
+                        <button>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="16" width="10"
+                                viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                                <path
+                                    d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z" />
+                            </svg>
+                        </button>
+                        <button>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="16" width="10"
+                                viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                                <path
+                                    d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="button">
+                    <button class="btn">Log in</button>
+                    <button class="btn">Sing up</button>
+                </div>
+
+            </div>
+            <div class="SpotifyPlaylist">
+                <h1>Spotify Playlist</h1>
+                <div class="cards">
+                    <!-- We have writeen this js so ther is not need -->
+                    <!-- <div data-folder="Trending" class="card">
+                        <div class="play">
+                            <i class="fa-solid fa-circle-play" style="color: #07df20;"></i>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67706f00000002403f8ff596413f3d280026df" class="rounded">
+                        <h2>Haapy Tit</h2>
+                        <p>Ring in 2024 with your favorite party tracks!</p>
+                    </div>
+                    <div data-folder="Romantic" class="card">
+                        <div class="play">
+                            <i class="fa-solid fa-circle-play" style="color: #07df20;"></i>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67706f00000002403f8ff596413f3d280026df" class="rounded">
+                        <h2>Haapy Tit</h2>
+                        <p>Ring in 2024 with your favorite party tracks!</p>
+                    </div> -->
+                   
+                </div>
+            </div>
+
+            <div class="playbar">
+                <div class="seekbar">
+                    <div class="circle"></div>
+                </div>
+                <div class="playerbar">
+                    <div class="songinfo"></div>
+                    <div class="playbutton">
+                        <button><img width="30" id="previous" src="img/previous.svg"></button>
+                        <button><img width="30" id="play" src="img/player.svg"></button>
+                        <button><img width="30" id="next" src="img/next.svg"></button>
+                    </div>
+                    <div class="timevol">
+                        <div class="songtime"></div>
+                        <div class="volume">
+                            <img width="30" src="img/volume.svg" alt="volume">
+                            <div class="range">
+                                <input type="range" name="volume" id="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

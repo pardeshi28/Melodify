@@ -1,0 +1,52 @@
+.flex{
+    display: flex;
+
+}
+.justify-content{
+    justify-content: center;
+}
+.item-centre{
+    align-items: center;
+}
+.border{
+    border: 3px solid red;
+    margin: 3px;
+
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.invert{
+    filter: invert(1); 
+    /*inverting the black img to white img */
+}
+.bg-gray{
+    background-color: #121212;
+
+}
+.rounded{
+    border-radius: 15px;
+}
+.m-1{
+    margin: 10px;
+}
+.p-1{
+
+    padding: 10px;
+}
+.btn{
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: #121212;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+.btn:hover{
+    background-color: gray;
+    color: #121212;
+    font-size: 17px;
+}
